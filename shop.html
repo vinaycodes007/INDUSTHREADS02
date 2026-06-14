@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Shop — Indus Threads</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600;9..144,700&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="shop.css" />
+</head>
+<body>
+
+  <!-- ===== HEADER ===== -->
+  <header class="site-header">
+    <nav class="nav container">
+      <a href="index.html" class="logo">Indus<span>Threads</span></a>
+      <div class="nav-links">
+        <a href="index.html">Home</a>
+        <a href="shop.html" class="active">Shop</a>
+        <a href="about.html">About</a>
+      </div>
+      <button class="nav-toggle" aria-label="Toggle menu">
+        <span></span><span></span><span></span>
+      </button>
+    </nav>
+  </header>
+
+  <!-- ===== PAGE HEADER ===== -->
+  <section class="shop-hero">
+    <div class="container">
+      <span class="eyebrow">Full collection</span>
+      <h1>Shop all pieces</h1>
+      <p>Tees, hoodies and bottoms — each print drawn from a regional textile tradition and redrawn for everyday wear.</p>
+    </div>
+  </section>
+
+  <div class="motif-strip" aria-hidden="true"></div>
+
+  <!-- ===== SHOP ===== -->
+  <section class="shop">
+    <div class="container shop-layout">
+
+      <!-- Filters -->
+      <aside class="filters">
+        <div class="filter-group">
+          <h4>Category</h4>
+          <label><input type="checkbox" class="filter-cat" value="tees" checked> Tees</label>
+          <label><input type="checkbox" class="filter-cat" value="hoodies" checked> Hoodies</label>
+          <label><input type="checkbox" class="filter-cat" value="bottoms" checked> Bottoms</label>
+        </div>
+        <div class="filter-group">
+          <h4>Motif</h4>
+          <label><input type="checkbox" class="filter-motif" value="ajrakh" checked> Ajrakh</label>
+          <label><input type="checkbox" class="filter-motif" value="jaali" checked> Jaali</label>
+          <label><input type="checkbox" class="filter-motif" value="madhubani" checked> Madhubani</label>
+          <label><input type="checkbox" class="filter-motif" value="kalamkari" checked> Kalamkari</label>
+        </div>
+        <button class="btn btn-outline reset-filters" type="button">Reset filters</button>
+      </aside>
+
+      <!-- Product grid -->
+      <div class="shop-grid-wrap">
+        <div class="shop-toolbar">
+          <span class="result-count">8 pieces</span>
+          <select class="sort-select" aria-label="Sort products">
+            <option>Sort: Featured</option>
+            <option>Price: Low to High</option>
+            <option>Price: High to Low</option>
+            <option>Newest</option>
+          </select>
+        </div>
+
+        <div class="product-grid" id="productGrid">
+
+          <article class="product-card" data-cat="tees" data-motif="jaali">
+            <div class="product-thumb thumb-1">
+              <span class="tag">New</span>
+            </div>
+            <h3>Jaali Oversized Tee</h3>
+            <p class="meta">100% cotton · Jaali motif</p>
+            <p class="price">₹1,299</p>
+          </article>
+
+          <article class="product-card" data-cat="hoodies" data-motif="ajrakh">
+            <div class="product-thumb thumb-2">
+              <span class="tag">Bestseller</span>
+            </div>
+            <h3>Ajrakh Block Hoodie</h3>
+            <p class="meta">Heavyweight fleece · Ajrakh motif</p>
+            <p class="price">₹2,799</p>
+          </article>
+
+          <article class="product-card" data-cat="bottoms" data-motif="kalamkari">
+            <div class="product-thumb thumb-3"></div>
+            <h3>Kalamkari Wide Pants</h3>
+            <p class="meta">Cotton twill · Kalamkari motif</p>
+            <p class="price">₹2,199</p>
+          </article>
+
+          <article class="product-card" data-cat="tees" data-motif="madhubani">
+            <div class="product-thumb thumb-4"></div>
+            <h3>Madhubani Crop Shirt</h3>
+            <p class="meta">100% cotton · Madhubani motif</p>
+            <p class="price">₹1,599</p>
+          </article>
+
+          <article class="product-card" data-cat="hoodies" data-motif="jaali">
+            <div class="product-thumb thumb-5">
+              <span class="tag">New</span>
+            </div>
+            <h3>Jaali Panel Hoodie</h3>
+            <p class="meta">Heavyweight fleece · Jaali motif</p>
+            <p class="price">₹2,999</p>
+          </article>
+
+          <article class="product-card" data-cat="tees" data-motif="ajrakh">
+            <div class="product-thumb thumb-6"></div>
+            <h3>Ajrakh Stripe Tee</h3>
+            <p class="meta">100% cotton · Ajrakh motif</p>
+            <p class="price">₹1,399</p>
+          </article>
+
+          <article class="product-card" data-cat="bottoms" data-motif="jaali">
+            <div class="product-thumb thumb-7"></div>
+            <h3>Jaali Cargo Pants</h3>
+            <p class="meta">Ripstop cotton · Jaali motif</p>
+            <p class="price">₹2,499</p>
+          </article>
+
+          <article class="product-card" data-cat="hoodies" data-motif="madhubani">
+            <div class="product-thumb thumb-8">
+              <span class="tag">Limited</span>
+            </div>
+            <h3>Madhubani Mural Hoodie</h3>
+            <p class="meta">Heavyweight fleece · Madhubani motif</p>
+            <p class="price">₹3,199</p>
+          </article>
+
+        </div>
+
+        <p class="empty-state" hidden>No pieces match these filters yet — try clearing one.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== FOOTER ===== -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div>
+          <div class="footer-logo">Indus<span>Threads</span></div>
+          <p>Streetwear designed and printed in Delhi, drawing on India's textile and visual traditions.</p>
+        </div>
+        <div>
+          <h4>Shop</h4>
+          <p><a href="shop.html">All products</a></p>
+          <p><a href="shop.html">Tees</a></p>
+          <p><a href="shop.html">Hoodies</a></p>
+          <p><a href="shop.html">Bottoms</a></p>
+        </div>
+        <div>
+          <h4>Company</h4>
+          <p><a href="about.html">About us</a></p>
+          <p><a href="about.html">Our artisans</a></p>
+          <p><a href="#">Sustainability</a></p>
+        </div>
+        <div>
+          <h4>Visit us</h4>
+          <p>Indus Threads Studio<br>Shahpur Jat, New Delhi<br>Delhi 110049, India</p>
+          <p>hello@industhreads.in</p>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <span>© 2026 Indus Threads. All rights reserved.</span>
+        <span>Designed &amp; printed in Delhi, India</span>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+  <script src="shop.js"></script>
+</body>
+</html>
