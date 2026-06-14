@@ -128,7 +128,7 @@
   background-repeat: no-repeat;
   }
 .thumb-2 { background-color: #EFE3D2; background-image: radial-gradient(circle at 30% 30%, #C1502E 0 18px, transparent 19px), radial-gradient(circle at 70% 70%, #1B2A4A 0 18px, transparent 19px);
-  background-image:url('blue\ girl.png');
+  background-image:url('blue\ girl.jpg');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -140,7 +140,7 @@
   background-repeat: no-repeat;
 }
 .thumb-4 {
-  background-image:url('mor\ ladka.png');
+  background-image:url('mor\ ladka.jpg');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -150,7 +150,7 @@
   background-position: center;
   background-repeat: no-repeat;}
 .thumb-6 {
-   background-image:url('soul\ front.png');
+   background-image:url('soul\ front.jpg');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;}
@@ -159,7 +159,7 @@
   background-position: center;
   background-repeat: no-repeat;}
 .thumb-8 { 
-  background-image:url('mubai.png');
+  background-image:url('mubai.jpg');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;}
