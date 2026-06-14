@@ -4,7 +4,7 @@
 
 :root {
   --indigo: #1b2a4a;
-  --cream: #f7f3ec;
+  --cream:  #FAF9F6;
   --saffron: #e8a33d;
   --terracotta: #c1502e;
   --leaf: #3f5d45;
@@ -95,7 +95,7 @@ a {
 }
 
 .logo span {
-  color: var(--terracotta);
+  color: var(--indigo);
 }
 
 .nav-links {
@@ -199,7 +199,7 @@ a {
 
 /* ---------- Footer ---------- */
 .site-footer {
-  background: var(--indigo);
+  background: black;
   color: var(--cream);
   padding: 56px 0 28px;
 }

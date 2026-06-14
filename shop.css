@@ -120,14 +120,49 @@
   overflow: hidden;
 }
 
-.thumb-1 { background-color: #F1ECE2; background-image: repeating-linear-gradient(45deg, #1B2A4A 0 6px, transparent 6px 28px);}
-.thumb-2 { background-color: #EFE3D2; background-image: radial-gradient(circle at 30% 30%, #C1502E 0 18px, transparent 19px), radial-gradient(circle at 70% 70%, #1B2A4A 0 18px, transparent 19px);}
-.thumb-3 { background-color: #F4ECDC; background-image: repeating-linear-gradient(0deg, #3F5D45 0 4px, transparent 4px 22px), repeating-linear-gradient(90deg, #E8A33D 0 4px, transparent 4px 22px);}
-.thumb-4 { background-color: #F6EFE3; background-image: repeating-radial-gradient(circle, #C1502E 0 2px, transparent 2px 24px);}
-.thumb-5 { background-color: #EAE3D5; background-image: repeating-linear-gradient(135deg, #1B2A4A 0 5px, transparent 5px 24px);}
-.thumb-6 { background-color: #F2E6D6; background-image: repeating-linear-gradient(90deg, #C1502E 0 8px, transparent 8px 32px);}
-.thumb-7 { background-color: #EDE6D8; background-image: repeating-linear-gradient(0deg, #3F5D45 0 3px, transparent 3px 18px), repeating-linear-gradient(90deg, #1B2A4A 0 3px, transparent 3px 18px);}
-.thumb-8 { background-color: #F5EDDE; background-image: radial-gradient(circle at 25% 75%, #E8A33D 0 16px, transparent 17px), radial-gradient(circle at 75% 25%, #C1502E 0 16px, transparent 17px);}
+.thumb-1 { background-color: #F1ECE2;
+   /* background-image: repeating-linear-gradient(45deg, #1B2A4A 0 6px, transparent 6px 28px); */
+  background-image:url('akela\ londa.jpeg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  }
+.thumb-2 { background-color: #EFE3D2; background-image: radial-gradient(circle at 30% 30%, #C1502E 0 18px, transparent 19px), radial-gradient(circle at 70% 70%, #1B2A4A 0 18px, transparent 19px);
+  background-image:url('blue\ girl.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.thumb-3 { background-color: #F4ECDC; background-image: repeating-linear-gradient(0deg, #3F5D45 0 4px, transparent 4px 22px), repeating-linear-gradient(90deg, #E8A33D 0 4px, transparent 4px 22px);
+  background-image:url('jaipur.jpeg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.thumb-4 {
+  background-image:url('mor\ ladka.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.thumb-5 { background-image:url('royal\ serene.jpeg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;}
+.thumb-6 {
+   background-image:url('soul\ front.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;}
+.thumb-7 { background-image:url('sitar\ .jpeg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;}
+.thumb-8 { 
+  background-image:url('mubai.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;}
 
 .tag {
   position: absolute;

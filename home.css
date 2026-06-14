@@ -132,13 +132,42 @@
   content: "";
   position: absolute;
   inset: 0;
-  background: linear-gradient(135deg, rgba(27,42,74,0.08), transparent 60%);
+  background: linear-gradient(135deg, rgba(27, 42, 74, 0.08), transparent 60%);
 }
 
-.thumb-1 { background-color: #e3ded2; background-image: repeating-linear-gradient(45deg, #1B2A4A 0 6px, transparent 6px 28px); background-color: #F1ECE2;}
-.thumb-2 { background-color: #d9c9b4; background-image: radial-gradient(circle at 30% 30%, #C1502E 0 18px, transparent 19px), radial-gradient(circle at 70% 70%, #1B2A4A 0 18px, transparent 19px); background-color: #EFE3D2;}
-.thumb-3 { background-color: #e8dcc5; background-image: repeating-linear-gradient(0deg, #3F5D45 0 4px, transparent 4px 22px), repeating-linear-gradient(90deg, #E8A33D 0 4px, transparent 4px 22px); background-color: #F4ECDC;}
-.thumb-4 { background-color: #ece2d4; background-image: repeating-radial-gradient(circle, #C1502E 0 2px, transparent 2px 24px); background-color: #F6EFE3;}
+.thumb-1 {
+  background-image:url('blue\ girl.png') ;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* background-color: #e3ded2;
+  background-image: repeating-linear-gradient(45deg, #1B2A4A 0 6px, transparent 6px 28px);
+  background-color: #F1ECE2 */
+}
+
+.thumb-2 {
+   background-image:url('sitar\ .jpeg') ;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* background-color: #d9c9b4;
+  background-image: radial-gradient(circle at 30% 30%, #C1502E 0 18px, transparent 19px), radial-gradient(circle at 70% 70%, #1B2A4A 0 18px, transparent 19px);
+  background-color: #EFE3D2; */
+}
+
+.thumb-3 {
+   background-image:url('royal\ serene.jpeg') ;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.thumb-4 {
+   background-image:url('mubai.png') ;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 
 .product-card h3 {
   font-family: var(--display);
@@ -170,7 +199,10 @@
   gap: 56px;
   align-items: center;
 }
-
+.story-visual img{
+   width:100%;
+   height: 100%;
+}
 .story-visual svg {
   width: 100%;
   max-width: 320px;
@@ -285,6 +317,7 @@
 
 /* ---------- Responsive ---------- */
 @media (max-width: 980px) {
+
   .hero-grid,
   .story-grid {
     grid-template-columns: 1fr;
